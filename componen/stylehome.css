@@ -1,0 +1,58 @@
+.body {
+    background-image: url(background.jpg);
+}
+
+.offcanvas-header {
+    color: #B8860B;
+}
+
+.karosel {
+    width: 100%; /* Sesuaikan lebar sesuai kebutuhan */
+    max-width: 100; /* Batas maksimal lebar */
+    margin: auto; /* Membuat carousel tetap di tengah */
+}
+
+    .karosel img {
+        height: 775px; /* Sesuaikan tinggi sesuai kebutuhan */
+        object-fit: cover; /* Menjaga aspek rasio gambar */
+    }
+
+.vidio {
+    justify-items: center;
+    background-color: #212529;
+    padding-bottom: 100px;
+}
+
+    .gambarvidio {
+        border-radius: 10px;
+    }
+
+    .tulisanvidio {
+        flex: 0.3;
+    }
+
+    .vidio2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .judulvidio {
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+.judulpaket {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer {
+    background-color: #212529;
+    color: #B8860B;
+}
+
+    
